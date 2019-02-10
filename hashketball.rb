@@ -208,8 +208,8 @@ def big_shoe_rebounds
     end
   end
   largest = 0
-  shoe_sizes.each do |x|
-    if x.to_i > largest
+  shoe_sizes.each do |size|
+    if size.to_i > largest
       largest = x.to_i
     end
   end
