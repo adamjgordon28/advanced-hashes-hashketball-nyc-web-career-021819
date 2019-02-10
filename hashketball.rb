@@ -210,7 +210,7 @@ def big_shoe_rebounds
   largest = 0
   shoe_sizes.each do |size|
     if size.to_i > largest
-      largest = x.to_i
+      largest = size.to_i
     end
   end
   player_with_largest = names[shoe_sizes.index(largest.to_s)]
